@@ -1,10 +1,10 @@
 
 export default function Hero () {
     return (
-    <div className="min-h-screen gap-6 flex flex-col justify-center items-center text-center">
-        <h1 className="text-6xl font-semibold  text-[#3B821D]">Maõs que ajudam, vidas que mudam!</h1>
-        <p className="text-2xl text-[#3B821D]">Um projeto social que une educação, solidariedade e desenvolvimento para transformar a realidade de Amontada.</p>
-        <div className="mt-2 text-lg font-medium flex gap-4">
+    <div className="min-h-screen gap-6 flex flex-col justify-center items-center text-center mx-10">
+        <h1 className="md:text-6xl text-4xl font-semibold  text-[#3B821D]">Maõs que ajudam, vidas que mudam!</h1>
+        <p className="md:text-2xl text-xl  text-[#3B821D]">Um projeto social que une educação, solidariedade e desenvolvimento para transformar a realidade de Amontada.</p>
+        <div className="mt-2 text-lg font-medium flex flex-col gap-4 md:flex-row">
             <button className="p-3 px-8 bg-[#E7C94C] text-[#3B821D] rounded-lg transition-all duration-300 hover:bg-yellow-300 hover:scale-105  hover:shadow-2xl">
                 Saiba mais
             </button>
