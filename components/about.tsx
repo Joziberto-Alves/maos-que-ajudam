@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <div className="min-h-screen flex flex-col text-[#3B821D] justify-center mt-30"
+        <div className="min-h-screen flex flex-col text-[#3B821D] justify-center mt-30 mx-3 md:mx-10"
         id="about">
             <h1 className="text-4xl md:text-5xl font-medium text-center">Sobre o Projeto</h1>
             <section className="flex items-center mt-10  md:flex-row flex-col ">
@@ -25,7 +25,7 @@ export default function About() {
                 <div className="md:w-1/2 flex flex-col items-center justufy-center ">
                     {/* imagem */}
                     <Image
-                    src="logo.svg"
+                    src="/logo.png"
                     height={200}
                     width={200}
                     alt=""

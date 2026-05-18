@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Impacts() {
     return (
-        <div className="min-h-screen flex flex-col text-[#3B821D] justify-center my-30 gap-10" id="impact">
+        <div className="min-h-screen flex flex-col text-[#3B821D] justify-center my-30 gap-10 mx-3 md:mx-10" id="impact">
             <section className="flex items-center  md:flex-row flex-col ">
                 
                 <div className="md:w-1/2 flex-col p-9 text-lg md:text-2xl leading-relaxed ">
@@ -17,7 +17,7 @@ export default function Impacts() {
                 <div className="md:w-1/2 flex flex-col items-center justufy-center ">
                     {/* imagem */}
                     <Image 
-                    src="/logo.svg"
+                    src="/logo.png"
                     alt="impacto"
                     width={200}
                     height={200}
