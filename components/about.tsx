@@ -1,9 +1,13 @@
+'use client';
+import Image from "next/image"
+
 export default function About() {
     return (
-        <div className="min-h-screen flex flex-col text-[#3B821D] justify-center mt-30">
-            <h1 className="text-5xl font-medium text-center">Sobre o Projeto</h1>
+        <div className="min-h-screen flex flex-col text-[#3B821D] justify-center mt-30"
+        id="about">
+            <h1 className="text-4xl md:text-5xl font-medium text-center">Sobre o Projeto</h1>
             <section className="flex items-center mt-10  md:flex-row flex-col ">
-                <div className="md:w-1/2 flex-col justify-center p-9 text-2xl leading-relaxed">
+                <div className="md:w-1/2 flex-col justify-center p-9 text-lg md:text-2xl leading-relaxed mb-10 md:mb-0">
                     {/* texto */}
                     <p className="mb-6 text-justify ">
                     O projeto “Mãos que ajudam” nasceu com o 
@@ -20,7 +24,14 @@ export default function About() {
 
                 <div className="md:w-1/2 flex flex-col items-center justufy-center ">
                     {/* imagem */}
-                    <div className="bg-gray-200 p-50 rounded-xl"></div>
+                    <Image
+                    src="logo.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    >
+
+                    </Image>
                 </div>
             </section>
         </div>
