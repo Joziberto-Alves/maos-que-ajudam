@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Goals() {
     return (
-        <div className="mt-[15vh]">
+        <div className="mt-[15vh]" id="goals">
             <h1 className="text-[#3B821D] text-center text-5xl font-medium ">Objetivos</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-[10vh] items-center text-center text-[#3B821D] text-lg md:text-2xl font-medium m-5">
                 <div className=" flex flex-col items-center justify-center ">
