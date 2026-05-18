@@ -20,7 +20,6 @@ const links = [
     { href: "#support", label: "Apoie",},
     { href: "#fellows", label: "Parceiros",}
 
-
 ];
 
 return (
@@ -28,8 +27,8 @@ return (
     <div className="max-w-6xl  mx-auto  py-3 flex justify-between items-center">
         {/* Logo + Nome */}
         <div  className="flex items-center gap-3" > 
-            <Image src="/Logo.svg" alt="Logo do Projeto" width={40} height={40}/>
-            <a href="#" className="text-green-700 font-bold text-xl">Mãos que Ajudam</a>
+            <Image src="/Logo.png" alt="Logo do Projeto" width={40} height={40}/>
+            <a href="#" className="text-green-700 font-semibold text-g">Mãos que Ajudam</a>
         </div>
 
         {/* Menu Desktop */}
