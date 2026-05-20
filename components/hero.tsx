@@ -6,8 +6,8 @@ export default function Hero () {
         aboutSection?.scrollIntoView({ behavior: 'smooth' });
     }
     return (
-    <div className="min-h-screen gap-6 flex flex-col justify-center items-center text-center mx-4 mb-[20vh]">
-        <h1 className="md:text-6xl text-4xl font-semibold  text-[#3B821D]">Maõs que ajudam, vidas que mudam!</h1>
+    <div className="min-h-screen gap-6 flex flex-col justify-center items-center text-center mx-4 mb-[20vh]" data-aos="fade-up">
+        <h1 className="md:text-6xl text-4xl font-semibold  text-[#3B821D]"  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" aos-duration="200">Mãos que ajudam, vidas que mudam!</h1>
         <p className="md:text-2xl text-xl  text-[#3B821D]">Um projeto social que une educação, solidariedade e desenvolvimento para transformar a realidade de Amontada.</p>
         <div className="mt-2 text-lg font-medium flex flex-col gap-4 md:flex-row">
             <button
