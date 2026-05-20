@@ -17,10 +17,10 @@ export default function Impacts() {
                 <div className="md:w-1/2 flex flex-col items-center justufy-center ">
                     {/* imagem */}
                     <Image 
-                    src="/logo.png"
+                    src="/img1.jpeg"
                     alt="impacto"
-                    width={200}
-                    height={200}
+                    width={600}
+                    height={600}
                     className=""
                     ></Image>
                 </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import AOSInit from "@/components/AosInit";
 
 
 
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html
       lang="pt-BR"
     >
-      <body className={`${poppins.className} h-full antialiased min-h-full flex flex-col`}>{children}</body>
+      <body className={`${poppins.className} h-full antialiased min-h-full flex flex-col`}>
+        <AOSInit/>
+        {children}
+      </body>
     </html>
   );
 }
