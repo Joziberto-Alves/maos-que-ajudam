@@ -28,7 +28,7 @@ export default function TimeLine() {
                     "
                 >
                     <Image
-                        src="/prefeitura.jpg"
+                        src="/Prefeitura.jpg"
                         alt="Prefeitura"
                         width={80}
                         height={80}
