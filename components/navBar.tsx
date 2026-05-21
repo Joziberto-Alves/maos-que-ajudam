@@ -24,7 +24,7 @@ const links = [
 
 return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50 html">
-    <div className="max-w-6xl  mx-auto  py-3 flex justify-between items-center">
+    <div className="max-w-6xl  mx-auto  py-3 px-3 lg:px-0 flex justify-between items-center">
         {/* Logo + Nome */}
         <div  className="flex items-center gap-3" > 
             <Image src="/logo.png" alt="Logo do Projeto" width={40} height={40}/>
@@ -45,9 +45,11 @@ return (
         ))}
         </ul>
         <div className="text-md p-2 px-6 hidden lg:flex   rounded-lg text-[#3B821D]  bg-[#E7C94C] font-medium hover:scale-105 hover:bg-yellow-300 transition-all duration-300">
+            <a href="https://wa.me/5588999999999">
             <button>
                 Entre em contato
             </button>
+            </a>
         </div>
 
         {/* Botão Mobile */}

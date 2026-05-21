@@ -26,8 +26,8 @@ export default function About() {
                     {/* imagem */}
                     <Image
                     src="/logo.png"
-                    height={200}
-                    width={200}
+                    height={400}
+                    width={400}
                     alt=""
                     >
 
