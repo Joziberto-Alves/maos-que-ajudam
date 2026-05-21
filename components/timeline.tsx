@@ -99,7 +99,7 @@ export default function TimeLine() {
                     "
                 >
                     <Image
-                        src="/informática.png"
+                        src="/informatica.png"
                         alt="Informática"
                         width={80}
                         height={80}

@@ -15,7 +15,13 @@ export default function Hero () {
             className="p-3 px-8 bg-[#E7C94C] text-[#3B821D] rounded-lg transition-all duration-300 hover:bg-yellow-300 hover:scale-105  hover:shadow-2xl">
                 Saiba mais
             </button>
-            <button className="p-3 px-8 text-[#E7C94C] border border-yellow-500 rounded-lg trasition-all duration-300 hover:scale-105  hover:shadow-2xl">
+            <button 
+            onClick={() => {
+                const aboutSection = document.getElementById('impact');
+                aboutSection?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="p-3 px-8 text-[#E7C94C] border border-yellow-500 rounded-lg trasition-all duration-300 hover:scale-105  hover:shadow-2xl"
+            >
                 Ver Ações
             </button>
         </div>

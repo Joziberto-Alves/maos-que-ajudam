@@ -1,10 +1,10 @@
-import Image from "next/image"
+import Galeria from "./Galeria"
 export default function Impacts() {
     return (
         <div className="min-h-screen flex flex-col text-[#3B821D] justify-center my-30 gap-10 mx-3 md:mx-10" id="impact">
             <section className="flex items-center  md:flex-row flex-col ">
                 
-                <div className="md:w-1/2 flex-col p-9 text-lg md:text-2xl leading-relaxed ">
+                <div className="md:w-1/2 flex-col p-9 text-md md:text-2xl leading-relaxed ">
                     <h1 className="text-4xl md:text-5xl font-medium text-center mb-[10vh]">Impacto</h1>
                     {/* texto */}
                     <p className="mb-6 text-justify ">
@@ -16,13 +16,7 @@ export default function Impacts() {
 
                 <div className="md:w-1/2 flex flex-col items-center justufy-center ">
                     {/* imagem */}
-                    <Image 
-                    src="/img1.jpeg"
-                    alt="impacto"
-                    width={600}
-                    height={600}
-                    className=""
-                    ></Image>
+                    <Galeria/>
                 </div>
             </section>
         </div>
